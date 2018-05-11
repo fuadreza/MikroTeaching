@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:clickable="true"
+    android:id="@+id/clPendahuluan"
+    android:orientation="vertical"
+    tools:background="#EFEFEF">
+
+    <ImageView
+        android:id="@+id/iv_pendahuluan_gambar"
+        android:layout_width="70dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_pendahuluan_judul"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0.87"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/iv_pendahuluan_gambar"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Nama Menu" />
+
+    <TextView
+        android:id="@+id/tv_pendahuluan_deskripsi"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="267dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:alpha="0.54"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/iv_pendahuluan_gambar"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pendahuluan_judul"
+        tools:text="Submenu berisi deskripsi yang disingkat" />
+
+    <!--<View
+        android:id="@+id/view"
+        android:layout_width="277dp"
+        android:layout_height="11dp"
+        android:background="@color/divider_light"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="22dp" />-->
+
+
+</android.support.constraint.ConstraintLayout>

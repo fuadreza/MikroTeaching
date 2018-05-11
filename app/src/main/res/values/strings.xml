@@ -1,0 +1,694 @@
+<resources>
+    <string name="app_name">MikroTeching</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="title_activity_materi">Bank Materi</string>
+
+    <!-- IntroSlider -->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Bank Materi</string>
+    <string name="slide_1_desc">Belajar materi-materi terkait Microteaching!</string>
+
+    <string name="slide_2_title">Tes kemampuan</string>
+    <string name="slide_2_desc">Menguji kemampuan penguasaan materi melalui tes-tes dalam bentuk tes tertulis maupun verbal!</string>
+
+    <string name="slide_3_title">Merekam Suara</string>
+    <string name="slide_3_desc">Menguji kemampuan penguasaan praktik verbal!</string>
+
+    <string name="slide_4_title">Melihat Progress</string>
+    <string name="slide_4_desc">Melihat Progres yang telah dicapai oleh pengguna!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <!-- End Intro -->
+
+    <string name="tab_1">Home</string>
+    <string name="tab_2">Progress</string>
+    <string name="tab_3">Notification</string>
+    <string name="kategori_pendahuluan">Pendahuluan</string>
+    <string name="kategori_kdm">KDM</string>
+    <string name="hello_blank_fragment">Hello Bank Materi</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</string>
+
+    <!--Pendahuluan-->
+    <!-- Gambar -->
+    <string-array name="pendahuluanGambar">
+        <item>@drawable/menu1</item>
+        <item>@drawable/menu2</item>
+        <item>@drawable/menu3</item>
+        <item>@drawable/menu3</item>
+        <item>@drawable/menu3</item>
+        <item>@drawable/menu3</item>
+    </string-array>
+
+    <!-- Judul -->
+    <string-array name="pendahuluanJudul">
+        <item>Konsep Pembelajaran</item>
+        <item>Tujuan Pembelajaran</item>
+        <item>Materi Pembelajaran</item>
+        <item>Metode dan Strategi Pembelajaran</item>
+        <item>Perlengkapan dan Fasilitas Pembelajaran</item>
+        <item>Penilaian Hasil Pembelajaran</item>
+    </string-array>
+
+    <!-- Deskripsi -->
+    <string-array name="pendahuluanDeskripsi">
+        <item>
+            Pembelajaran adalah istilah yang relatif baru dalam dunia
+pendidikan Indonesia. Kata “pembelajaran” adalah terjemahan dari
+“instruction” yang banyak dipakai dalam dunia pendidikan di
+Amerika Serikat. Namun demikian, substansinya sudah lama ada
+dalam dunia pendidikan Indonesia, karena konsep pembelajaran
+merupakan konversi dari istilah proses belajar mengajar yang selama
+ini digunakan. Mengapa saat ini lebih cenderung menggunakan
+istilah pembelajaran? Karena dalam kenyataannya yang sering
+terjadi adalah guru mengajar namun kurang mampu membelajarkan
+siswa.
+            Seperti dikemukakan di atas, konsep pembelajaran mengandung
+unsur belajar dan mengajar. Beberapa pakar memberikan
+definisi tentang belajar. Belajar menurut Hilgard dan Brower dalam
+Oemar Hamalik adalah perubahan dalam perbuatan melalui
+aktivitas, praktek, dan pengalaman.1 Adapun menurut Morgan
+dalam Ngalim Purwanto, belajar adalah setiap perubahan yang
+relatif menetap dalam tingkah laku yang terjadi sebagai suatu hasil
+dari latihan atau pengalaman.
+        </item>
+        <item>
+            Proses pembelajaran merupakan hal yang kompleks dan sistemik.
+Keberhasilan proses pembelajaran sangat dipengaruhi oleh
+berbagai komponen atau sub sistem yang menjadi satu kesatuan,
+saling berinteraksi dan berkaitan satu sama lain untuk mencapai
+suatu hasil secara optimal sesuai dengan tujuan yang telah
+ditetapkan.
+            Menurut Soetopo, pembelajaran sebagai suatu sistem terdiri
+dari beberapa komponen yaitu, (1) siswa, (2) guru, (3) tujuan, (4)
+materi, (5) metode, (6) sarana/alat, (7) evaluasi, dan (8) lingkungan/
+konteks. Masing-masing komponen itu sebagai bagian
+yang berdiri sendiri, namun dalam berproses di kesatuan sistem,
+mereka saling bergantung dan bersama-sama untuk mencapai
+tujuan.7 Proses pembelajaran ditandai dengan adanya interaksi
+antara komponen. Misalnya komponen peserta didik berinteraksi
+dengan komponen guru, metode/media, perlengkapan/peralatan,
+dan lingkungan kelas yang mengarah kepada pencapaian tujuan
+pembelajaran.
+            Tidak ada satupun komponen dari delapan komponen tersebut
+yang dapat dipisahkan satu sama lain karena dapat mengakibatkan
+tersendatnya proses pembelajaran. Misalnya pembelajaran tidak
+dapat dilakukan di ruang yang tidak jelas, tanpa siswa, tanpa tujuan,
+tanpa bahan ajar.
+            Versi lain mengemukakan bahwa untuk mewujudkan proses
+transformasi edukatif, perlu ada komunikasi antara pendidik dengan
+peserta didik yang mengandung unsur-unsur pedagogis, didaktis,
+dan psikologis.
+            Tujuan pembelajaran adalah sejumlah hasil belajar yang
+diharapkan tercapai oleh siswa setelah melakukan aktivitas belajar,
+yang umumnya meliputi pengetahuan, keterampilan dan sikapsikap
+yang baru9. Tujuan merupakan komponen yang penting
+dalam pembelajaran. Semua aktivitas guru dan siswa diarahkan
+untuk pencapaian tujuan tersebut dan menjadi pedoman dalam
+mengukur tingkat keberhasilan proses pembelajaran. Untuk itu,
+langkah awal dalam merancang pembelajaran adalah merumuskan
+tujuan dengan jelas, tepat dan mudah dipahami.
+            Ada beberapa jenjang tujuan yang harus dipahami oleh guru/
+calon guru, mulai dari tujuan pendidikan nasional, tujuan institusional,
+tujuan kurikuler, tujuan umum pembelajaran (standar
+kompetensi) sampai tujuan khusus pembelajaran (kompetensi
+dasar). Proses pembelajaran tanpa tujuan bagaikan hidup tanpa
+arah. Oleh sebab itu, tujuan pendidikan dan pembelajaran secara
+keseluruhan harus dikuasai oleh guru.
+        </item>
+        <item>
+            Setiap aktivitas pembelajaran harus ada materinya. Materi
+atau bahan ajar adalah segala bentuk bahan yang digunakan untuk
+membantu guru dalam melaksanakan kegiatan pembelajaran di
+kelas. Bahan yang dimaksud bisa berupa bahan tertulis maupun
+bahan tidak tertulis
+            Menurut Ahmad Sudrajad, bahan ajar adalah seperangkat
+materi yang disusun secara sistematis baik tertulis maupun tidak
+tertulis sehingga tercipta lingkungan/ suasana yang memungkinkan
+siswa untuk belajar. Bahan ajar atau materi pembelajaran (instructional
+materials) secara garis besar terdiri dari pengetahuan, keterampilan,
+dan sikap yang harus dipelajari siswa dalam rangka mencapai
+standar kompetensi yang telah ditentukan.
+            Ditinjau dari pihak guru, materi pembelajaran itu harus
+diajarkan atau disampaikan dalam kegiatan pembelajran. Ditinjau
+dari pihak siswa bahan ajar itu harus dipelajari siswa dalam rangka
+mencapai standar kompetensi dan kompetensi dasar yang akan
+dinilai dengan menggunakan instrumen penilaian yang disusun
+berdasarkan indikator pencapaian belajar.
+        </item>
+        <item>
+            Metode pembelajaran adalah cara yang digunakan oleh guru
+dalam menyampaikan pesan pembelajaran kepada siswa dalam mencapai
+tujuan pembelajaran. Sementara itu strategi ada yang
+mengartikan sebagai tehnik atau trik bagaimana membuat pembelajaran
+menjadi menarik dan mengesankan. Guru harus dapat memilih
+metode dan strategi yang tepat yang disesuaikan dengan
+materi pelajaran agar tujuan pembelajaran dapat tercapai. Metode
+dan strategi pembelajaran mungkin dapat dikatakan tepat untuk
+suatu pelajaran tetapi belum tentu tepat untuk pelajaran yang
+lainnya. Untuk itu guru haruslah menguasai berbagai macam metode
+dan strategi serta pandai memilih dan menggunakan metode
+dan strategi pembelajaran yang sesuai dengan materi yang diberikan,
+karakteristik siswa dan tujuan pembelajaran yang ingin dicapai.
+            Pembelajaran dengan menggunakan metode mengajar konvensional
+umumnya berlangsung satu arah yang merupakan transfer
+atau pengalihan pengetahuan, informasi, norma, nilai, dan lainlainnya
+dari seorang guru kepada siswa. Proses semacam ini dibangun
+dengan asumsi bahwa peserta didik ibarat botol kosong.
+Gurulah yang harus mengisi botol tersebut. Cara pandang (paradigma)
+seperti ini kini mulai ditinggalkan seiring dengan munculnya
+kesadaran yang makin kuat di dunia pendidikan bahwa proses
+belajar mengajar efektif apabila peserta didik secara aktif berpartisipasi
+dalam proses pembelajaran, memungkinkan mereka untuk
+berinovasi dan berkreasi serta belajar dalam suasana yang menyenangkan,
+yang dikenal dengan PAIKEM.
+            Kesadaran akan Pembelajaran dengan pendekatan Aktif,
+Inovatif, Kreatif, Efektif dan menyenangkan (PAIKEM) muncul
+setelah melihat kenyataan bahwa dunia pendidikan kita mengalami
+krisis yang cukup serius. Hal itu diindikasikan oleh lemahnya mutu
+pendidikan nasional Indonesia dalam komparasi internasional;
+pembelajaran yang cenderung teoritis, dimana banyak sarjana yang
+tahu dan paham suatu keilmuan secara kognitif, namun lemah dari
+segi afektif dan psikomotorik; indikasi lainnya terlihat dari dekadensi
+moral generasi bangsa.
+            Pembelajaran aktif adalah suatu pembelajaran yang mengajak
+siswa untuk belajar secara aktif. Ketika siswa belajar secara aktif,
+berarti mereka yang mendominasi aktivitas pembelajaran. Dengan
+ini mereka secara aktif menggunakan otak, baik untuk menemukan
+ide pokok dari materi, memberi makna pada gejala-gejala, mengidentifikasi
+masalah dan memecahkan persoalan, atau mengaplikasikan
+apa yang baru mereka pelajari ke dalam satu persoalan
+yang ada dalam kehidupan nyata. Dengan belajar aktif, siswa diajak
+untuk turut serta dalam semua proses pembelajaran, tidak hanya
+mental akan tetapi juga melibatkan fisik. Dengan cara ini biasanya
+siswa akan merasakan suasana yang lebih menyenangkan sehingga
+hasil belajar dapat dimaksimalkan.
+            Pembelajaran aktif (active learning) sangat diperlukan oleh siswa
+untuk mengoptimalkan penggunaan semua potensi yang dimilikinya,
+sehingga mendapatkan hasil belajar yang maksimum. Ketika
+siswa pasif, atau hanya menerima dari dosen, ada kecenderungan
+untuk cepat melupakan apa yang telah diberikan. Oleh sebab itu
+diperlukan perangkat tertentu untuk dapat mengikat informasi yang
+baru saja diterima dari dosen. Belajar aktif adalah salah satu cara
+untuk mengikat informasi yang baru kemudian menyimpannya
+dalam otak.
+            Mengapa demikian? Karena salah satu faktor yang menyebabkan
+informasi cepat dilupakan adalah faktor kelemahan otak
+manusia itu sendiri. Belajar yang hanya mengandalkan indera pendengaran
+mempunyai beberapa kelemahan.
+        </item>
+        <item>
+            Agar materi pembelajaran lebih mudah dipahami dan dikuasai
+oleh siswa, maka dalam proses pembelajaran diperlukan perlengkapan
+dan fasilitas pembelajaran, yaitu segala sesuatu yang bersifat fisik
+maupun material yang dapat memudahkan terselenggaranya proses
+pembelajaran seperti gedung, ruang kelas, meja, kursi, alatalat
+dan media pembelajaran, buku pelajaran, perpustakaan, berbagai
+perlengkapan pratikum loboratorium dan segala sesuatu yang
+menunjang terlaksananya proses belajar mengajar.
+            Alat pembelajaran dapat berupa benda yang sesungguhnya,
+imitasi, gambar, bagan, grafik, tabulasi dan sebagainya yang
+dituangkan dalam media. Media itu dapat berupa alat elektronik,
+alat cetak, dan tiruan.
+            Efektifitas pembelajaran sangat tergantung pada ketersediaan
+perlengkapan dan fasilitas pembelajaran sebagaimana telah
+disebutkan di atas. Penggunaan media dan alat pembelajaran
+harus disesuaikan dengan tujuan, karakteristik siswa, materi, dan
+metode pembelajaran.
+        </item>
+        <item>
+            Evaluasi dilakukan oleh guru terhadap hasil pembelajaran
+untuk mengukur tingkat pencapaian kompetensi siswa, serta
+digunakan sebagai bahan penyusunan laporan kemajuan hasil
+belajar, dan memperbaiki proses pembelajaran.
+            Evaluasi dilaksanakan berpedoman pada tujuan dan materi
+pembelajaran untuk menetapkan tingkat keberhasilan. Dengan
+adanya evaluasi, maka dapat diketahui ketercapaian tujuan
+pembelajaran.
+            Penilaian dilakukan secara konsisten, sistematis, komprehensif,
+obyektif, dan terprogram dengan menggunakan tes dan
+nontes dalam bentuk tertulis atau lisan, pengamatan kinerja,
+pengukuran sikap, penilaian hasil karya berupa tugas, proyek dan
+atau produk, portofolio, serta penilaian diri.
+        </item>
+    </string-array>
+
+    <!--KDM-->
+    !-- Gambar -->
+    <string-array name="kdmGambar">
+        <item>@drawable/menu1</item>
+        <item>@drawable/menu1</item>
+        <item>@drawable/menu1</item>
+        <item>@drawable/menu2</item>
+        <item>@drawable/menu2</item>
+        <item>@drawable/menu2</item>
+        <item>@drawable/menu3</item>
+        <item>@drawable/menu3</item>
+    </string-array>
+
+    <!-- Judul -->
+    <string-array name="kdmJudul">
+        <item>Keterampilan Membuka dan Menutup Pelajaran</item>
+        <item>Keterampilan Menjelaskan Pelajaran</item>
+        <item>Keterampilan Bertanya</item>
+        <item>Keterampilan Mengadakan Variasi</item>
+        <item>Keterampilan Memberikan Penguatan</item>
+        <item>Keterampilan Mengelola Kelas</item>
+        <item>Keterampilan Mengajar Kelompok Kecil dan Perseorangan</item>
+        <item>Keterampilan Memimpin Diskusi Kelompok Kecil</item>
+    </string-array>
+
+    <!-- Deskripsi -->
+    <string-array name="kdmDeskripsi">
+        <item>Materi ini berisi Keterampilan Membuka dan Menutup Pelajaran</item>
+        <item>Materi ini berisi Keterampilan Menjelaskan Pelajaran</item>
+        <item>Materi ini berisi Keterampilan Bertanya</item>
+        <item>Materi ini berisi Keterampilan Mengadakan Variasi</item>
+        <item>Materi ini berisi Keterampilan Memberikan Penguatan</item>
+        <item>Materi ini berisi Keterampilan Mengelola Kelas</item>
+        <item>Materi ini berisi Keterampilan Mengajar Kelompok Kecil dan Perseorangan</item>
+        <item>Materi ini berisi Keterampilan Memimpin Diskusi Kelompok Kecil</item>
+    </string-array>
+
+    <!-- Deskripsi Detail Pendahuluan 1 - Start=================================================================================================================-->
+    <string name="pendahuluan_1_1">
+        Pembelajaran adalah istilah yang relatif baru dalam dunia
+pendidikan Indonesia. Kata “pembelajaran” adalah terjemahan dari
+“instruction” yang banyak dipakai dalam dunia pendidikan di
+Amerika Serikat. Namun demikian, substansinya sudah lama ada
+dalam dunia pendidikan Indonesia, karena konsep pembelajaran
+merupakan konversi dari istilah proses belajar mengajar yang selama
+ini digunakan. Mengapa saat ini lebih cenderung menggunakan
+istilah pembelajaran? Karena dalam kenyataannya yang sering
+terjadi adalah guru mengajar namun kurang mampu membelajarkan
+siswa.</string>
+    <string name="pendahuluan_1_2">
+        Pembelajaran adalah istilah yang relatif baru dalam dunia
+pendidikan Indonesia. Kata “pembelajaran” adalah terjemahan dari
+“instruction” yang banyak dipakai dalam dunia pendidikan di
+Amerika Serikat. Namun demikian, substansinya sudah lama ada
+dalam dunia pendidikan Indonesia, karena konsep pembelajaran
+merupakan konversi dari istilah proses belajar mengajar yang selama
+ini digunakan. Mengapa saat ini lebih cenderung menggunakan
+istilah pembelajaran? Karena dalam kenyataannya yang sering
+terjadi adalah guru mengajar namun kurang mampu membelajarkan
+siswa.</string>
+    <string name="pendahuluan_1_3">
+        Seperti dikemukakan di atas, konsep pembelajaran mengandung
+unsur belajar dan mengajar. Beberapa pakar memberikan
+definisi tentang belajar. Belajar menurut Hilgard dan Brower dalam
+Oemar Hamalik adalah perubahan dalam perbuatan melalui
+aktivitas, praktek, dan pengalaman.1 Adapun menurut Morgan
+dalam Ngalim Purwanto, belajar adalah setiap perubahan yang
+relatif menetap dalam tingkah laku yang terjadi sebagai suatu hasil dari latihan atau pengalaman. Beberapa ciri umum kegiatan belajar
+sebagai berikut:</string>
+    <!-- Deskripsi Detail Pendahuluan 1 - End -->
+
+    <!-- Deskripsi Detail Pendahuluan 2 - Start=================================================================================================================-->
+    <string name="pendahuluan_2_1">
+        Tujuan pembelajaran adalah sejumlah hasil belajar yang
+diharapkan tercapai oleh siswa setelah melakukan aktivitas belajar,
+yang umumnya meliputi pengetahuan, keterampilan dan sikapsikap
+yang baru9. Tujuan merupakan komponen yang penting
+dalam pembelajaran. Semua aktivitas guru dan siswa diarahkan
+untuk pencapaian tujuan tersebut dan menjadi pedoman dalam
+mengukur tingkat keberhasilan proses pembelajaran. Untuk itu,
+langkah awal dalam merancang pembelajaran adalah merumuskan
+tujuan dengan jelas, tepat dan mudah dipahami.</string>
+    <string name="pendahuluan_2_2">
+        Perumusan tujuan yang jelas dalam pembelajaran menjadi
+sangat penting disebabkan beberapa alasan, antara lain:</string>
+    <string name="pendahuluan_2_3">
+        Ada beberapa jenjang tujuan yang harus dipahami oleh guru/
+calon guru, mulai dari tujuan pendidikan nasional, tujuan institusional,
+tujuan kurikuler, tujuan umum pembelajaran (standar
+kompetensi) sampai tujuan khusus pembelajaran (kompetensi
+dasar). Proses pembelajaran tanpa tujuan bagaikan hidup tanpa
+arah. Oleh sebab itu, tujuan pendidikan dan pembelajaran secara
+keseluruhan harus dikuasai oleh guru.</string>
+    <!-- Deskripsi Detail Pendahuluan 2 - End -->
+
+    <!-- Deskripsi Detail Pendahuluan 3 - Start=================================================================================================================-->
+    <string name="pendahuluan_3_1">
+        Setiap aktivitas pembelajaran harus ada materinya. Materi
+atau bahan ajar adalah segala bentuk bahan yang digunakan untuk
+membantu guru dalam melaksanakan kegiatan pembelajaran di
+kelas. Bahan yang dimaksud bisa berupa bahan tertulis maupun
+bahan tidak tertulis.</string>
+    <string name="pendahuluan_3_2">
+        Menurut Ahmad Sudrajad, bahan ajar adalah seperangkat
+materi yang disusun secara sistematis baik tertulis maupun tidak
+tertulis sehingga tercipta lingkungan/ suasana yang memungkinkan
+siswa untuk belajar. Bahan ajar atau materi pembelajaran (instructional
+materials) secara garis besar terdiri dari pengetahuan, keterampilan,
+dan sikap yang harus dipelajari siswa dalam rangka mencapai
+standar kompetensi yang telah ditentukan.</string>
+    <string name="pendahuluan_3_3">
+        Secara terperinci, jenis-jenis materi pembelajaran terdiri dari
+pengetahuan antara lain fakta, konsep, prinsip, prosedur, dan sikap.
+Berikut uraian masing-masing:</string>
+    <string name="pendahuluan_3_4">
+        Ditinjau dari pihak guru, materi pembelajaran itu harus
+diajarkan atau disampaikan dalam kegiatan pembelajran. Ditinjau
+dari pihak siswa bahan ajar itu harus dipelajari siswa dalam rangka
+mencapai standar kompetensi dan kompetensi dasar yang akan
+dinilai dengan menggunakan instrumen penilaian yang disusun
+berdasarkan indikator pencapaian belajar.</string>
+    <!-- Deskripsi Detail Pendahuluan 3 - End -->
+
+    <!-- Deskripsi Detail Pendahuluan 4 - Start=================================================================================================================-->
+    <string name="pendahuluan_4_1">
+        Metode pembelajaran adalah cara yang digunakan oleh guru
+dalam menyampaikan pesan pembelajaran kepada siswa dalam
+mencapai tujuan pembelajaran. Sementara itu strategi ada yang
+mengartikan sebagai tehnik atau trik bagaimana membuat pembelajaran
+menjadi menarik dan mengesankan. Guru harus dapat memilih
+metode dan strategi yang tepat yang disesuaikan dengan
+materi pelajaran agar tujuan pembelajaran dapat tercapai. Metode
+dan strategi pembelajaran mungkin dapat dikatakan tepat untuk
+suatu pelajaran tetapi belum tentu tepat untuk pelajaran yang
+lainnya. Untuk itu guru haruslah menguasai berbagai macam metode
+dan strategi serta pandai memilih dan menggunakan metode
+dan strategi pembelajaran yang sesuai dengan materi yang diberikan,
+karakteristik siswa dan tujuan pembelajaran yang ingin dicapai.</string>
+    <string name="pendahuluan_4_2">
+        Pembelajaran dengan menggunakan metode mengajar konvensional
+umumnya berlangsung satu arah yang merupakan transfer
+atau pengalihan pengetahuan, informasi, norma, nilai, dan lainlainnya
+dari seorang guru kepada siswa. Proses semacam ini dibangun
+dengan asumsi bahwa peserta didik ibarat botol kosong.
+Gurulah yang harus mengisi botol tersebut. Cara pandang (paradigma)
+seperti ini kini mulai ditinggalkan seiring dengan munculnya
+kesadaran yang makin kuat di dunia pendidikan bahwa proses
+belajar mengajar efektif apabila peserta didik secara aktif berpartisipasi
+dalam proses pembelajaran, memungkinkan mereka untuk
+berinovasi dan berkreasi serta belajar dalam suasana yang menyenangkan,
+yang dikenal dengan PAIKEM.</string>
+    <string name="pendahuluan_4_3">
+        Kesadaran akan Pembelajaran dengan pendekatan Aktif,
+Inovatif, Kreatif, Efektif dan menyenangkan (PAIKEM) muncul
+setelah melihat kenyataan bahwa dunia pendidikan kita mengalami
+krisis yang cukup serius. Hal itu diindikasikan oleh lemahnya mutu
+pendidikan nasional Indonesia dalam komparasi internasional;
+pembelajaran yang cenderung teoritis, dimana banyak sarjana yang
+tahu dan paham suatu keilmuan secara kognitif, namun lemah dari
+segi afektif dan psikomotorik; indikasi lainnya terlihat dari dekadensi
+moral generasi bangsa.</string>
+    <string name="pendahuluan_4_4">
+        Pembelajaran aktif adalah suatu pembelajaran yang mengajak
+siswa untuk belajar secara aktif. Ketika siswa belajar secara aktif,
+berarti mereka yang mendominasi aktivitas pembelajaran. Dengan
+ini mereka secara aktif menggunakan otak, baik untuk menemukan
+ide pokok dari materi, memberi makna pada gejala-gejala, mengidentifikasi
+masalah dan memecahkan persoalan, atau mengaplikasikan
+apa yang baru mereka pelajari ke dalam satu persoalan
+yang ada dalam kehidupan nyata. Dengan belajar aktif, siswa diajak
+untuk turut serta dalam semua proses pembelajaran, tidak hanya
+mental akan tetapi juga melibatkan fisik. Dengan cara ini biasanya
+siswa akan merasakan suasana yang lebih menyenangkan sehingga
+hasil belajar dapat dimaksimalkan.</string>
+    <string name="pendahuluan_4_5">
+        Pembelajaran aktif (active learning) sangat diperlukan oleh siswa
+untuk mengoptimalkan penggunaan semua potensi yang dimilikinya,
+sehingga mendapatkan hasil belajar yang maksimum. Ketika
+siswa pasif, atau hanya menerima dari dosen, ada kecenderungan
+untuk cepat melupakan apa yang telah diberikan. Oleh sebab itu
+diperlukan perangkat tertentu untuk dapat mengikat informasi yang
+baru saja diterima dari dosen. Belajar aktif adalah salah satu cara
+untuk mengikat informasi yang baru kemudian menyimpannya
+dalam otak.</string>
+    <!-- Deskripsi Detail Pendahuluan 4 - End -->
+
+    <!-- Deskripsi Detail Pendahuluan 5 - Start=================================================================================================================-->
+    <string name="pendahuluan_5_1">
+        Agar materi pembelajaran lebih mudah dipahami dan dikuasai
+oleh siswa, maka dalam proses pembelajaran diperlukan perlengkapan
+dan fasilitas pembelajaran, yaitu segala sesuatu yang bersifat fisik
+maupun material yang dapat memudahkan terselenggaranya proses
+pembelajaran seperti gedung, ruang kelas, meja, kursi, alatalat
+dan media pembelajaran, buku pelajaran, perpustakaan, berbagai
+perlengkapan pratikum loboratorium dan segala sesuatu yang
+menunjang terlaksananya proses belajar mengajar.</string>
+    <string name="pendahuluan_5_2">
+        Alat pembelajaran dapat berupa benda yang sesungguhnya,
+imitasi, gambar, bagan, grafik, tabulasi dan sebagainya yang
+dituangkan dalam media. Media itu dapat berupa alat elektronik,
+alat cetak, dan tiruan.</string>
+    <string name="pendahuluan_5_3">
+        Efektifitas pembelajaran sangat tergantung pada ketersediaan
+perlengkapan dan fasilitas pembelajaran sebagaimana telah
+disebutkan di atas. Penggunaan media dan alat pembelajaran
+harus disesuaikan dengan tujuan, karakteristik siswa, materi, dan
+metode pembelajaran.</string>
+    <!-- Deskripsi Detail Pendahuluan 5 - End -->
+
+    <!-- Deskripsi Detail Pendahuluan 6 - Start=================================================================================================================-->
+    <string name="pendahuluan_6_1">
+        Evaluasi dilakukan oleh guru terhadap hasil pembelajaran
+untuk mengukur tingkat pencapaian kompetensi siswa, serta
+digunakan sebagai bahan penyusunan laporan kemajuan hasil
+belajar, dan memperbaiki proses pembelajaran.</string>
+    <string name="pendahuluan_6_2">
+        Evaluasi dilaksanakan berpedoman pada tujuan dan materi
+pembelajaran untuk menetapkan tingkat keberhasilan. Dengan
+adanya evaluasi, maka dapat diketahui ketercapaian tujuan
+pembelajaran.</string>
+    <string name="pendahuluan_6_3">
+        Penilaian dilakukan secara konsisten, sistematis, komprehensif,
+obyektif, dan terprogram dengan menggunakan tes dan
+nontes dalam bentuk tertulis atau lisan, pengamatan kinerja,
+pengukuran sikap, penilaian hasil karya berupa tugas, proyek dan
+atau produk, portofolio, serta penilaian diri.</string>
+    <!-- Deskripsi Detail Pendahuluan 6 - End -->
+
+    <!-- Deskripsi Detail KDM - Start=================================================================================================================-->
+    <!-- Deskripsi Detail KDM - Start=================================================================================================================-->
+    <!-- Deskripsi Detail KDM - Start=================================================================================================================-->
+    <!-- Deskripsi Detail KDM - Start=================================================================================================================-->
+    <!-- Deskripsi Detail KDM - Start=================================================================================================================-->
+    <!-- Deskripsi Detail KDM - Start=================================================================================================================-->
+    <!-- Deskripsi Detail KDM - Start=================================================================================================================-->
+    <!-- Deskripsi Detail KDM - Start=================================================================================================================-->
+
+    <!-- Deskripsi Detail KDM 1 - Start=================================================================================================================-->
+    <string name="kdm_1_1">
+        Dalam mengawali proses pembelajaran yang sering dilakukan
+guru antara lain mengisi daftar hadir, menertibkan siswa dan
+menyuruh mereka untuk menyiapkan alat tulis dan buku pegangan.
+Kegitan tersebut memang harus dilakukan oleh guru, namun belum
+dapat dikategorikan sebagai membuka pelajaran. Karena belum
+tentu dapat mengajak siswa untuk memusatkan perhatiannya pada
+materi yang akan disajikan dan kegiatan pembelajaran yang akan
+dilakukan.</string>
+    <string name="kdm_1_2">
+        Membuka pembelajaran adalah kegiatan guru dalam mengawali
+proses pembelajaran untuk menciptakan suasana siap mental,
+phisik, phisikis dan emosional siswa sehingga memusatkan
+perhatian mereka pada materi dan kegiatan pembelajaran yang akan
+dilalui.</string>
+    <string name="kdm_1_3">
+        Aktivitas awal yang dilakukan dan kalimat-kalimat awal yang
+diucapkan guru merupakan penentu keberhasilan jalannya seluruh
+proses pembelajaran. Ketercapaian tujuan pembelajaran tergantung
+pada strategi mengajar guru di awal pelajaran. Seluruh rencana
+dan persiapan sebelum mengajar dapat menjadi tidak berguna jika
+guru tidak berhasil memfokuskan perhatian dan minat siswa pada
+pelajaran. Dalam tahap ini, yang perlu dilakukan guru terlebih
+dahulu adalah menciptakan suasana agar siswa secara mental,
+phisik, phisikis dan emosional terpusat pada kegiatan pembelajaran
+yang akan dilakukan. Hal tersebut dapat dilakukan guru dengan
+cara-cara sebagai berikut:</string>
+    <!-- Deskripsi Detail KDM 1 - End -->
+
+    <!-- Deskripsi Detail KDM 2 - Start=================================================================================================================-->
+    <string name="kdm_2_1">
+        Betapapun pandainya seorang guru dalam menguasai suatu
+bahan pelajaran, akan sia-sia saja apabila ia kurang atau tidak mampu
+menguasai keterampilan menjelaskan bahan pelajaran yang
+dikuasainya. Demikian pula sebaliknya, kurang lengkap bila guru
+hanya terampil menjelaskan pelajaran, tetapi tidak menguasai
+bahan pelajaran yang diajarkan. Idealnya adalah seorang guru
+menguasai bahan pelajaran yang diampunya dan mempunyai
+strategi dalam menjelaskan bahan pelajaran itu secara efektif
+sehingga mudah dipahami siswa.</string>
+    <string name="kdm_2_2">
+        Keterampilan menjelaskan dapat diartikan sebagai penyajian
+informasi secara lisan yang diorganisasi secara sistematis,26 mengenai
+suatu benda, keadaan, fakta, dan data sesuai dengan waktu
+dan hukum-hukum yang berlaku27 Penekanan memberikan penjelasan
+adalah proses penalaran siswa dan bukan indoktrinasi.28
+Berdasarkan pemikiran tersebut, dapat disimpulkan bahwa menjelaskan
+pelajaran adalah keterampilan guru dalam menyampaikan
+bahan pelajaran kepada siswa secara lisan yang diorganisasikan
+secara terencana dan sistematis sehingga bahan pelajaran yang
+disampaikan guru tersebut dengan mudah dipahami siswa.</string>
+    <string name="kdm_2_3">
+        Menjelaskan merupakan keterampilan inti yang harus dimiliki
+guru. Alasan yang melatarbelakanginya adalah sebagai berikut:</string>
+    <string name="kdm_2_4">
+        Tujuan menjelaskan materi pelajaran adalah:</string>
+    <!-- Deskripsi Detail KDM 2 - End -->
+
+    <!-- Deskripsi Detail KDM 3 - Start=================================================================================================================-->
+    <string name="kdm_3_1">
+        Mengajar yang baik berarti membuat pertanyaan yang baik
+pula. Peranan ‘pertanyaan’ sangat penting dalam menyusun sebuah
+pengalaman belajar bagi murid. Socrates meyakini bahwa semua
+ilmu pengetahuan akan diketahui atau tidak diketahui oleh siswa,
+hanya jika guru dapat mendemonstrasikan keterampilan bertanya
+yang baik dalam praktik pembelajaran di kelas.</string>
+    <string name="kdm_3_2">
+        Pembelajaran hakekatnya adalah proses interaksi peserta
+didik dengan pendidik dan sumber belajar dalam suasana interaktif
+yang terarah pada tujuan pembelajaran. Ada tidaknya interaksi
+adalah merupakan tanggung jawab guru, sehingga perlu mendapatkan
+perhatian khusus. Suatu cara untuk menumbuhkan interaksi
+ini adalah dengan mengajukan pertanyaan atau permasalahan
+kepada siswa.</string>
+    <string name="kdm_3_3">
+        Sebenarnya pertanyaan yang diajukan guru mempunyai beberapa maksud. Satu
+pertanyaan yang diajukan dapat mencapai beberapa tujuan sekaligus
+pada waktu yang sama. Kadang-kadang hal ini tidak disadari, baik
+oleh siswa maupun oleh guru itu sendiri, sebab pertanyaan itu
+berkembang.</string>
+    <!-- Deskripsi Detail KDM 3 - End -->
+
+    <!-- Deskripsi Detail KDM 4 - Start=================================================================================================================-->
+    <string name="kdm_4_1">
+        Siswa akan menjadi sangat bosan jika guru selalu mengajar dengan
+cara yang sama. Kejenuhan dapat membuat siswa tidak berminat
+pada pembelajaran. Akibatnya tujuan pembelajaran menjadi tidak
+tercapai. Variasi adalah keanekaan yang membuat sesuatu tidak
+monoton. Variasai dapat berwujud perubahan-perubahan atau
+perbedaan-perbedaan yang sengaja diciptakan untuk memberi
+kesan yang unik dan menarik perhatian siswa pada pembelajaran.
+Dengan demikian, keterampilan guru dalam mengadakan variasi
+sangat diperlukan dalam kegiatan pembelajaran.</string>
+    <string name="kdm_4_2">
+        Mengadakan variasi berarti melakukan tindakan yang beraneka
+ragam yang membuat sesuatu menjadi tidak monoton di dalam
+pembelajaran sehingga dapat menghilangkan kebosanan, meningkatkan
+minat dan rasa ingin tahu siswa, serta membuat tingkat
+aktivitas siswa menjadi bertambah. Pendapat yang sama dikemukakan
+Uzer Usman bahwa engadakan variasi adalah suatu kegiatan
+guru dalam konteks proses interaksi belajar mengajar yang ditujukan
+untuk mengatasi kebosanan siswa, sehingga dalam situasi
+belajar siswa senantiasa menunjukkan ketekunan, antusiasme,
+serta penuh partisipasi.</string>
+    <string name="kdm_4_3">
+        Di dalam proses belajar mengajar, variasi ditunjukkan dengan
+adanya perubahan dalam gaya mengajar guru, keragaman media
+yang digunakan, dan perubahan dalam pola interaksi dan kegiatan
+siswa. Variasi ini lebih bersifat proses daripada produk.39 Bila tujuan
+pembelajaran mencakup domain (ranah) dengan berbagai jenjang
+penguasaan maka disarankan untuk memakai berbagai jenis metode
+pada setiap penyajian apalagi bila tingkat kemampuan siswanya
+sangat bervariasi.</string>
+    <!-- Deskripsi Detail KDM 4 - End -->
+
+    <!-- Deskripsi Detail KDM 5 - Start=================================================================================================================-->
+    <string name="kdm_5_1">
+        Penguatan dapat berarti penghargaan. Pada umumnya penghargaan
+memberi pengaruh positif terhadap kehidupan manusia,
+karena dapat mendorong dan memperbaiki tingkah laku seseorang
+serta meningkatkan usahanya. Sudah menjadi fitrah manusia,
+bahwa ia ingin dihormati, dihargai, dipuji, dan disanjung-sanjung,
+tentu saja semuanya ini dalam batas-batas yang wajar.</string>
+    <string name="kdm_5_2">
+        Penguatan (reinforcement) adalah segala bentuk respons, apakah
+bersifat verbal ataupun non verbal, yang merupakan bagian dari
+modifikasi tingkah laku guru terhadap tingkah laku siswa, yang
+bertujuan memberikan informasi atau umpan balik (feed back) bagi
+si penerima atas perbuatannya sebagai suatu dorongan atau koreksi.
+Penguatan juga merupakan respon terhadap suatu tingkah laku
+yang dapat meningkatkan kemungkinan berulangnya kembali
+tingkah laku tersebut.</string>
+    <string name="kdm_5_3">
+        Penggunaan penguatan dalam kelas dapat mencapai atau mempunyai
+pengaruh sikap positif terhadap proses belajar siswa dan
+bertujuan untuk menumbuhkan rasa percaya diri, meningkatkan
+motivasi, minat dan perhatian siswa terhadap pembelajaran,
+membangkitkan dan memelihara perilaku, dan memelihara iklim
+belajar yang kondusif sehingga siswa dapat belajar secara optimal.</string>
+    <string name="kdm_5_4">
+        Keterampilan memberikan penguatan terdiri dari beberapa
+komponen yang perlu dipahami dan dikuasai, antara lain:</string>
+    <!-- Deskripsi Detail KDM 5 - End -->
+
+    <!-- Deskripsi Detail KDM 6 - Start=================================================================================================================-->
+    <string name="kdm_6_1">
+        Kelas merupakan wahana paling dominan bagi terselenggaranya
+proses pembelajaran bagi peserta didik. Kedudukan kelas
+yang begitu penting mengisyaratkan bahwa guru harus profesional
+dalam mengelola kelas agar terselenggaranya proses pendidikan
+dan pembelajaran yang efektif dan efisien</string>
+    <string name="kdm_6_2">
+        Keterampilan manajemen kelas (classroom management skills)
+menduduki posisi penting dalam menentukan keberhasilan proses
+pembelajaran. Dengan demikian keterampilan manajemen kelas
+sangat krusial dan fundamental dalam mendukung proses pembelajaran.
+Faktanya, tidak semua guru menyadari ketidakmampuan
+dan kelemahannya dalam pengelolaan kelas. Itulah sebabnya sering
+muncul ungkapan-ungkapan yang berkonotasi menyalahkan siswa
+seperti, “Kalau diajar, dia selalu ramai”. “Siswa tidak mau mem-
+perhatikan pelajaran”, dst. Guru yang masih menyatakan ungkapan-
+ungkapan seperti itu, seharusnya menyadari bahwa dia belum
+memiliki keterampilan menguasai kelas secara memadai. Masalahnya,
+mengakui kekurangan sering kali tidak mudah. Guru-guru
+yang rendah keterampilannya dalam bidang manajemen kelas, sulit
+untuk dapat menyelesaikan banyak hal yang menjadi tugas
+pokoknya.</string>
+    <string name="kdm_6_3">
+        Keterampilan mengelola kelas adalah keterampilan guru
+dalam menciptakan dan memelihara kondisi belajar yang optimal
+serta keterampilan mengembalikan kondisi belajar ke kondisi yang
+optimal bila terdapat gangguan dalam proses belajar baik yang
+bersifat gangguan kecil dan sementara maupun gangguan yang berkelanjutan.
+54 Dalam bahasa lain keterampilan mengelola kelas dapat
+diartikan sebagai seni atau keterampilan guru dalam mengoptimalkan
+sumber daya kelas bagi penciptaan proses pembelajaran yang
+efektif dan efisien.</string>
+    <!-- Deskripsi Detail KDM 6 - End -->
+
+    <!-- Deskripsi Detail KDM 7 - Start=================================================================================================================-->
+    <string name="kdm_7_1">
+        Secara fisik bentuk pengajaran ini berjumlah terbatas, yaitu
+berkisar antara 3 (tiga) dan 8 (delapan) orang untuk kelompok
+kecil, dan seorang untuk perseorangan. Dalam pengajaran kelompok
+kecil dan perseorangan memungkinkan guru memberikan
+perhatian terhadap setiap siswa serta terjadinya hubungan yang
+lebih akrab antara guru dan siswa dengan siswa.</string>
+    <string name="kdm_7_2">
+        Ada empat komponen keterampilan yang harus dimiliki oleh
+guru untuk pengajaran kelompok kecil dan perorangan. Keempat
+keterampilan tersebut adalah mengadakan pendekatan secara pribadi,
+mengorganisasikan, membimbing dan memudahkan belajar,
+serta merencanakan dan melaksanakan kegiatan belajar-mengajar.</string>
+    <!-- Deskripsi Detail KDM 7 - End -->
+
+    <!-- Deskripsi Detail KDM 8 - Start=================================================================================================================-->
+    <string name="kdm_8_1">
+        Memimpin diskusi kelompok kecil adalah suatu proses yang
+teratur yang melibatkan sekelompok orang dalam interaksi tatap
+muka yang informal dengan berbagi pengalaman atau informasi,
+pengambilan kesimpulan, atau pemecahan masalah. Diskusi kelompok
+merupakan strategi yang memungkinkan siswa menguasai
+suatu konsep atau memecahkan suatu masalah melalui satu proses
+yang memberi kesempatan untuk berpikir, berinteraksi sosial, serta
+berlatih bersikap positif. Dengan demikian diskusi kelompok dapat
+meningkatkan kreativitas siswa, serta membina kemampuan
+berkomunikasi termasuk di dalamnya ketrampilan berbahasa.</string>
+    <string name="kdm_8_2">
+        Ada 6 (enam) keterampilan yang harus dimiliki guru terkait
+membimbing diskusi kelompok kecil, yaitu:</string>
+    <string name="str_next">Next</string>
+    <string name="action_settings">Settings</string>
+    <string name="tap_on_mic">Tekan mic untuk merekam</string>
+    <string name="speech_prompt">Katakan sesuatu&#8230;</string>
+    <string name="speech_not_supported">Maaf! Perangkat anda tidak mendukung fitur ini</string>
+    <!-- Deskripsi Detail KDM 8 - End -->
+
+</resources>

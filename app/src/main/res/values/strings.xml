@@ -32,6 +32,11 @@
     <string name="hello_blank_fragment">Hello Bank Materi</string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</string>
 
+    <!--Youtube-->
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+
     <!--Pendahuluan-->
     <!-- Gambar -->
     <string-array name="pendahuluanGambar">
@@ -501,6 +506,23 @@ dahulu adalah menciptakan suasana agar siswa secara mental,
 phisik, phisikis dan emosional terpusat pada kegiatan pembelajaran
 yang akan dilakukan. Hal tersebut dapat dilakukan guru dengan
 cara-cara sebagai berikut:</string>
+
+    <string name="kdm_1_4">
+        Sementara keterampilan menutup pelajaran merupakan kegiatan
+mengakhiri kegiatan inti pembelajaran. Dalam mengakhiri
+pelajaran ini, kegiatan yang dilakukan adalah memberikan gambaran
+menyeluruh tentang semua materi yang telah dipelajari, mengetahui
+tingkat penyerapan siswa terhadap materi dan mengetahui tingkat
+keberhasilan guru dalam proses pembelaajaran. Kegiatan ini cukup
+berarti bagi siswa, namun banyak guru tidak sempat melakukan
+atau mungkin sengaja tidak melakukan.</string>
+
+    <string name="kdm_1_5">
+        Menutup pelajaran tidak hanya dilakukan pada akhir pelajaran,
+tetapi juga pada akhir penggalan pelajaran. Menutup pelajaran
+dilakukan untuk memperoleh gambaran yang utuh tentang pokokpokok
+materi yang dipelajari. Cara-cara yang dilakukan dalam
+menutup pelajaran:</string>
     <!-- Deskripsi Detail KDM 1 - End -->
 
     <!-- Deskripsi Detail KDM 2 - Start=================================================================================================================-->
@@ -689,6 +711,38 @@ membimbing diskusi kelompok kecil, yaitu:</string>
     <string name="tap_on_mic">Tekan mic untuk merekam</string>
     <string name="speech_prompt">Katakan sesuatu&#8230;</string>
     <string name="speech_not_supported">Maaf! Perangkat anda tidak mendukung fitur ini</string>
+    <string name="menu_verbal">Tes Verbal</string>
+    <string name="verbal_subtitle">Kumpulan Tes Verbal</string>
     <!-- Deskripsi Detail KDM 8 - End -->
+
+    <!-- Tes Verbal -->
+    <string-array name="tesVerbal">
+        <item>Verbal 1</item>
+        <item>Verbal 2</item>
+        <item>Verbal 3</item>
+        <item>Verbal 4</item>
+        <item>Verbal 5</item>
+        <item>Verbal 6</item>
+    </string-array>
+
+    <!-- Tes Verbal Soal-->
+    <string-array name="soalVerbal">
+        <item>Selamat Pagi murid-murid</item>
+        <item>Apa kabar murid-murid</item>
+        <item>Berdoa dimulai</item>
+        <item>Silahkan berkelompok</item>
+        <item>Kita cukupkan sekian</item>
+        <item>Apakah ada pertanyaan</item>
+    </string-array>
+
+    <!--Icon Soal Verbal-->
+    <string-array name="verbalGambar">
+        <item>@drawable/menu4</item>
+        <item>@drawable/menu4</item>
+        <item>@drawable/menu4</item>
+        <item>@drawable/menu4</item>
+        <item>@drawable/menu4</item>
+        <item>@drawable/menu4</item>
+    </string-array>
 
 </resources>

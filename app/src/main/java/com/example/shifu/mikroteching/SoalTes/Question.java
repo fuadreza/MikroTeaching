@@ -1,7 +1,8 @@
 package com.example.shifu.mikroteching.SoalTes;
 
 /**
- * Created by Shifu on 04/05/2018.
+ * Dibuat dengan kerjakerasbagaiquda oleh Shifu pada tanggal 04/05/2018.
+ *
  */
 
 class Question {
@@ -10,22 +11,28 @@ class Question {
     private String optA;
     private String optB;
     private String optC;
+    private String optD;
+    private String optE;
     private String answer;
 
-    public Question(){
+    Question(){
         id=0;
         question = "";
         optA = "";
         optB = "";
         optC = "";
+        optD = "";
+        optE = "";
         answer = "";
     }
 
-    public Question(String question, String optA, String optB, String optC, String answer){
+    Question(String question, String optA, String optB, String optC, String optD, String optE, String answer) {
         this.question = question;
         this.optA = optA;
         this.optB = optB;
         this.optC = optC;
+        this.optD = optD;
+        this.optE = optE;
         this.answer = answer;
     }
 
@@ -34,47 +41,63 @@ class Question {
         return id;
     }
 
-    public String getAnswer() {
-        return answer;
-    }
-
-    public String getOptC() {
-        return optC;
-    }
-
-    public String getOptB() {
-        return optB;
-    }
-
-    public String getOptA() {
-        return optA;
-    }
-
-    public String getQuestion() {
-        return question;
-    }
-
     public void setId(int id) {
         this.id = id;
     }
 
-    public void setQuestion(String question) {
-        this.question = question;
+    String getAnswer() {
+        return answer;
     }
 
-    public void setOptA(String optA) {
-        this.optA = optA;
+    void setAnswer(String answer) {
+        this.answer = answer;
     }
 
-    public void setOptB(String optB) {
-        this.optB = optB;
+    String getOptC() {
+        return optC;
     }
 
-    public void setOptC(String optC) {
+    void setOptC(String optC) {
         this.optC = optC;
     }
 
-    public void setAnswer(String answer) {
-        this.answer = answer;
+    String getOptB() {
+        return optB;
+    }
+
+    void setOptB(String optB) {
+        this.optB = optB;
+    }
+
+    String getOptA() {
+        return optA;
+    }
+
+    void setOptA(String optA) {
+        this.optA = optA;
+    }
+
+    String getOptD() {
+        return optD;
+    }
+
+    void setOptD(String optD) {
+        this.optD = optD;
+    }
+
+    String getOptE() {
+        return optE;
+    }
+
+    void setOptE(String optE) {
+        this.optE = optE;
+    }
+
+    String getQuestion() {
+        return question;
+    }
+
+    void setQuestion(String question) {
+        this.question = question;
     }
 }

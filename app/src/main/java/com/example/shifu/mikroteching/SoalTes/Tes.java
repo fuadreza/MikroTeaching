@@ -13,10 +13,10 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import com.example.shifu.mikroteching.R;
+
 import java.util.Collections;
 import java.util.List;
-
-import com.example.shifu.mikroteching.R;
 
 /**
  * Created by Shifu on 04/05/2018.
@@ -29,7 +29,7 @@ public class Tes extends AppCompatActivity{
     Question currentQuestion;
 
     TextView txtQuestion;
-    RadioButton rda,rdb,rdc;
+    RadioButton rda, rdb, rdc, rdd, rde;
     Button butNext;
 
     @Override
@@ -48,6 +48,8 @@ public class Tes extends AppCompatActivity{
         rda = (RadioButton)findViewById(R.id.radio0);
         rdb = (RadioButton)findViewById(R.id.radio1);
         rdc = (RadioButton)findViewById(R.id.radio2);
+        rdd = (RadioButton) findViewById(R.id.radio3);
+        rde = (RadioButton) findViewById(R.id.radio4);
         butNext = (Button)findViewById(R.id.button1);
         setQuestionView();
 
@@ -58,6 +60,8 @@ public class Tes extends AppCompatActivity{
         rda.setText(currentQuestion.getOptA());
         rdb.setText(currentQuestion.getOptB());
         rdc.setText(currentQuestion.getOptC());
+        rdd.setText(currentQuestion.getOptD());
+        rde.setText(currentQuestion.getOptE());
         quid++;
     }
 
@@ -66,10 +70,10 @@ public class Tes extends AppCompatActivity{
         RadioButton answer = (RadioButton)findViewById(grp.getCheckedRadioButtonId());
         if(currentQuestion.getAnswer().equals(answer.getText())){
             score++;
-            Log.d("Score", "Your score: "+score);
+            Log.d("Skor", "Skor anda: " + score);
         }
 
-        if(quid<5){
+        if(quid<15){
             currentQuestion = questionList.get(quid);
             setQuestionView();
         }else{

@@ -4,14 +4,12 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.support.constraint.ConstraintLayout;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.shifu.mikroteching.R;
 
@@ -27,6 +25,7 @@ public class CustomAdapter extends BaseAdapter{
     String[] deskripsi = {};
     int[] gambar = {};
     int layoute;
+    String video1, video2;
 
     Context context;
     List<RowItem> rowItems;
@@ -53,14 +52,6 @@ public class CustomAdapter extends BaseAdapter{
     @Override
     public long getItemId(int position) {
         return rowItems.indexOf(getItem(position));
-    }
-
-    /* private view holder class */
-    private class ViewHolder {
-        ImageView gambar;
-        TextView namaJudul;
-        TextView deskripsi;
-        ConstraintLayout view;
     }
 
     @Override
@@ -90,11 +81,10 @@ public class CustomAdapter extends BaseAdapter{
             holder.view.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent pindah = new Intent(parent.getContext(), DetailPendahuluan.class);
-                    pindah.putExtra("judul", judul[position]);
-                    pindah.putExtra("deskripsi", deskripsi[position]);
+                    Intent pindah;
 
                     if (kategori.equalsIgnoreCase("Pendahuluan")){
+                        pindah = new Intent(parent.getContext(), DetailPendahuluan.class);
                         switch (judul[position].toString()){
                             case "Konsep Pembelajaran":
                                 layoute = R.layout.detail_pendahuluan_1;
@@ -119,6 +109,7 @@ public class CustomAdapter extends BaseAdapter{
                                 break;
                         }
                     }else {
+                        pindah = new Intent(parent.getContext(), DetailKDM.class);
                         switch (judul[position].toString()){
                             case "Keterampilan Membuka dan Menutup Pelajaran":
                                 layoute = R.layout.detail_kdm_1;
@@ -150,7 +141,12 @@ public class CustomAdapter extends BaseAdapter{
                         }
                     }
 
+                    pindah.putExtra("judul", judul[position]);
+                    pindah.putExtra("deskripsi", deskripsi[position]);
+                    pindah.putExtra("kategori", kategori);
+
                     pindah.putExtra("layout", layoute);
+//                    pindah.putExtra("video1", video1);
 
                     parent.getContext().startActivity(pindah);
                 }
@@ -162,5 +158,13 @@ public class CustomAdapter extends BaseAdapter{
         }
 
         return convertView;
+    }
+
+    /* private view holder class */
+    private class ViewHolder {
+        ImageView gambar;
+        TextView namaJudul;
+        TextView deskripsi;
+        ConstraintLayout view;
     }
 }

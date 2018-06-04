@@ -4,6 +4,9 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="benar">#20D2BB</color>
+    <color name="salah">#F64C73</color>
+
     <!-- Background Color -->
     <color name="bg_screen1">#F64C73</color>
     <color name="bg_screen2">#20D2BB</color>

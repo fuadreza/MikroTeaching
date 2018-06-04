@@ -1,138 +1,112 @@
 package com.example.shifu.mikroteching.Verbal;
 
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.speech.tts.TextToSpeech;
-import android.support.v7.app.AppCompatActivity;
+import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.support.design.widget.AppBarLayout;
+import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.ListView;
+
+import com.bumptech.glide.Glide;
+import com.example.shifu.mikroteching.BankMateri.RowItem;
+import com.example.shifu.mikroteching.R;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
-
-import android.app.Activity;
-import android.content.ActivityNotFoundException;
-import android.content.Intent;
-import android.os.Bundle;
-import android.speech.RecognizerIntent;
-import android.util.Log;
-import android.view.Menu;
-import android.view.View;
-import android.widget.ImageButton;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import com.example.shifu.mikroteching.R;
 
 public class Verbal extends AppCompatActivity {
 
-    private TextView txtSpeechInput;
-    private ImageButton btnSpeak;
-    private final int REQ_CODE_SPEECH_INPUT = 100;
-    TextToSpeech tts;
+    String[] namaJudul;
+    String[] deskripsi;
+    String kategori;
+    TypedArray gambar;
+    List<RowItem> rowItems;
+    ListView lvVerbal;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_verbal);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
-        txtSpeechInput = (TextView) findViewById(R.id.txtSpeechInput);
-        btnSpeak = (ImageButton) findViewById(R.id.btnSpeak);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        // hide the action bar
-        //getActionBar().hide();
-
-        btnSpeak.setOnClickListener(new View.OnClickListener() {
-
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                promptSpeechInput();
+                finish();
             }
         });
 
-    }
+        initCollapsingToolbar();
 
-    public class LanguageDetailsChecker extends BroadcastReceiver
-    {
-        private List<String> supportedLanguages;
+        rowItems = new ArrayList<RowItem>();
 
-        private String languagePreference;
+        lvVerbal = (ListView) findViewById(R.id.lvVerbal);
 
-        @Override
-        public void onReceive(Context context, Intent intent)
-        {
-            Bundle results = getResultExtras(true);
-            if (results.containsKey(RecognizerIntent.EXTRA_LANGUAGE_PREFERENCE))
-            {
-                languagePreference =
-                        results.getString(RecognizerIntent.EXTRA_LANGUAGE_PREFERENCE);
+        namaJudul = getResources().getStringArray(R.array.tesVerbal);
+        gambar = getResources().obtainTypedArray(R.array.verbalGambar);
+        deskripsi = getResources().getStringArray(R.array.soalVerbal);
+        kategori = "Verbal";
 
-                Log.e("coba", languagePreference);
-            }
-            if (results.containsKey(RecognizerIntent.EXTRA_SUPPORTED_LANGUAGES))
-            {
-                supportedLanguages =
-                        results.getStringArrayList(
-                                RecognizerIntent.EXTRA_SUPPORTED_LANGUAGES);
-                for (String langAvalable : supportedLanguages){
-                    Log.e("lang", langAvalable);
-                }
-            }
+        for (int i = 0; i < namaJudul.length; i++) {
+            RowItem item = new RowItem(namaJudul[i],
+                    gambar.getResourceId(i, -1),
+                    deskripsi[i]);
+            rowItems.add(item);
         }
 
-    }
+        MenuVerbalAdapter adapter = new MenuVerbalAdapter(this, rowItems, namaJudul, deskripsi, null);
+        lvVerbal.setAdapter(adapter);
+        gambar.recycle();
 
-    /**
-     * Showing google speech input dialog
-     * */
-    private void promptSpeechInput() {
-//        Intent intent = new Intent(RecognizerIntent.ACTION_GET_LANGUAGE_DETAILS);
-        Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
-
-//        sendOrderedBroadcast(intent, null, new LanguageDetailsChecker(), null,Activity.RESULT_OK, null, null );
-//        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
-//                "id");
-//        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault());
-        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "id-ID");
-        intent.putExtra(RecognizerIntent.EXTRA_PROMPT,
-                getString(R.string.speech_prompt));
         try {
-            startActivityForResult(intent, REQ_CODE_SPEECH_INPUT);
-        } catch (ActivityNotFoundException a) {
-            Toast.makeText(getApplicationContext(),
-                    getString(R.string.speech_not_supported),
-                    Toast.LENGTH_SHORT).show();
+            Glide.with(this).load(R.drawable.teacher).into((ImageView) findViewById(R.id.backdrop));
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+
     }
 
     /**
-     * Receiving speech input
-     * */
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
+     * Initializing collapsing toolbar
+     * Will show and hide the toolbar title on scroll
+     */
+    private void initCollapsingToolbar() {
+        final CollapsingToolbarLayout collapsingToolbar =
+                (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+//        collapsingToolbar.setTitle(getString(R.string.menu_verbal));
+        collapsingToolbar.setTitle(" ");
 
-        switch (requestCode) {
-            case REQ_CODE_SPEECH_INPUT: {
-                if (resultCode == RESULT_OK && null != data) {
+        AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.appbar);
+        appBarLayout.setExpanded(true);
 
-                    Log.e("avalable Language",String.valueOf(data.getStringExtra(RecognizerIntent.EXTRA_SUPPORTED_LANGUAGES)));
+        // hiding & showing the title when toolbar expanded & collapsed
+        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+            boolean isShow = false;
+            int scrollRange = -1;
 
-                    ArrayList<String> result = data
-                            .getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
-                    txtSpeechInput.setText(result.get(0));
+            @Override
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
+                if (scrollRange == -1) {
+                    scrollRange = appBarLayout.getTotalScrollRange();
                 }
-                break;
+                if (scrollRange + verticalOffset == 0) {
+                    collapsingToolbar.setTitle(getString(R.string.menu_verbal));
+                    isShow = true;
+                } else if (isShow) {
+                    collapsingToolbar.setTitle(" ");
+                    isShow = false;
+                }
             }
-
-        }
+        });
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
 
 }

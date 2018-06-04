@@ -48,7 +48,8 @@ public class KDMFragment extends ListFragment {
 
         for (int i = 0; i < namaJudul.length; i++) {
             RowItem item = new RowItem(namaJudul[i],
-                    gambar.getResourceId(i, -1),deskripsi[i]);
+                    gambar.getResourceId(i, -1),
+                    deskripsi[i]);
             rowItems.add(item);
         }
 

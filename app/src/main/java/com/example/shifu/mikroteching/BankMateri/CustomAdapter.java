@@ -65,12 +65,12 @@ public class CustomAdapter extends BaseAdapter{
             convertView = mInflater.inflate(R.layout.item_simplevh, null);
             holder = new ViewHolder();
 
-            holder.namaJudul = (TextView) convertView
+            holder.namaJudul = convertView
                     .findViewById(R.id.tv_pendahuluan_judul);
-            holder.gambar = (ImageView) convertView
+            holder.gambar = convertView
                     .findViewById(R.id.iv_pendahuluan_gambar);
-            holder.deskripsi = (TextView) convertView.findViewById(R.id.tv_pendahuluan_deskripsi);
-            holder.view = (ConstraintLayout) convertView.findViewById(R.id.clPendahuluan);
+            holder.deskripsi = convertView.findViewById(R.id.tv_pendahuluan_deskripsi);
+            holder.view = convertView.findViewById(R.id.clPendahuluan);
 
             RowItem row_pos = rowItems.get(position);
 

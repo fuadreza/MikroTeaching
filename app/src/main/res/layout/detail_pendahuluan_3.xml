@@ -12,8 +12,8 @@
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/detail_backdrop_height"
-        android:fitsSystemWindows="true"
         android:backgroundTint="@color/colorPrimary"
+        android:fitsSystemWindows="true"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
         <android.support.design.widget.CollapsingToolbarLayout
@@ -76,7 +76,6 @@
 
     <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
@@ -103,25 +102,28 @@
                     android:textSize="20sp" />
 
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:text="@string/pendahuluan_3_1"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
                 <TextView
-                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:text="@string/pendahuluan_3_2"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
                 <TextView
-                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:text="@string/pendahuluan_3_3"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -137,12 +139,14 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="a."/>
+                            android:text="a."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Materi fakta adalah nama-nama obyek, peristiwa sejarah, lambang, nama tempat, nama orang, dan sebagainya. (Ibu kota Negara RI adalah Jakarta; Negara RI merdeka pada tanggal 17 Agustus 1945)."/>
+                            android:text="Materi fakta adalah nama-nama obyek, peristiwa sejarah, lambang, nama tempat, nama orang, dan sebagainya. (Ibu kota Negara RI adalah Jakarta; Negara RI merdeka pada tanggal 17 Agustus 1945)."
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -154,12 +158,14 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="b."/>
+                            android:text="b."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Termasuk materi konsep adalah pengertian, definisi, ciri khusus, komponen atau bagian suatu obyek (Contoh kursi adalah tempat duduk berkaki empat, ada sandaran dan lengan-lengannya)."/>
+                            android:text="Termasuk materi konsep adalah pengertian, definisi, ciri khusus, komponen atau bagian suatu obyek (Contoh kursi adalah tempat duduk berkaki empat, ada sandaran dan lengan-lengannya)."
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -171,12 +177,14 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="c."/>
+                            android:text="c."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Termasuk materi prinsip adalah dalil, rumus, postulat, teorema, atau hubungan antar konsep yang menggambarkan “jika.. maka….”, misalnya “Jika logam dipanasi maka akan memuai”, rumus menghitung luas bujur sangkar adalah sisi kali sisi."/>
+                            android:text="Termasuk materi prinsip adalah dalil, rumus, postulat, teorema, atau hubungan antar konsep yang menggambarkan “jika.. maka….”, misalnya “Jika logam dipanasi maka akan memuai”, rumus menghitung luas bujur sangkar adalah sisi kali sisi."
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -188,12 +196,14 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="d."/>
+                            android:text="d."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Termasuk materi prinsip adalah dalil, rumus, postulat, teorema, atau hubungan antar konsep yang menggambarkan “jika.. maka….”, misalnya “Jika logam dipanasi maka akan memuai”, rumus menghitung luas bujur sangkar adalah sisi kali sisi."/>
+                            android:text="Termasuk materi prinsip adalah dalil, rumus, postulat, teorema, atau hubungan antar konsep yang menggambarkan “jika.. maka….”, misalnya “Jika logam dipanasi maka akan memuai”, rumus menghitung luas bujur sangkar adalah sisi kali sisi."
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -205,23 +215,26 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="e."/>
+                            android:text="e."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Materi jenis sikap (afektif) adalah materi yang berkenaan dengan sikap atau nilai, misalnya nilai kejujuran, kasih sayang, tolongmenolong, semangat dan minat belajar, semangat bekerja, dan sebagainya."/>
+                            android:text="Materi jenis sikap (afektif) adalah materi yang berkenaan dengan sikap atau nilai, misalnya nilai kejujuran, kasih sayang, tolongmenolong, semangat dan minat belajar, semangat bekerja, dan sebagainya."
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
                 </LinearLayout>
 
                 <TextView
-                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:text="@string/pendahuluan_3_4"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
             </LinearLayout>
 

@@ -70,8 +70,8 @@ public class SimpleAdapter extends RecyclerView.Adapter<SimpleAdapter.SimpleItem
         public SimpleItemVH(View itemView) {
             super(itemView);
 
-            txtTitle = (TextView) itemView.findViewById(R.id.tv_pendahuluan_judul);
-            txtDesc = (TextView) itemView.findViewById(R.id.tv_pendahuluan_deskripsi);
+            txtTitle = itemView.findViewById(R.id.tv_pendahuluan_judul);
+            txtDesc = itemView.findViewById(R.id.tv_pendahuluan_deskripsi);
         }
     }
 }

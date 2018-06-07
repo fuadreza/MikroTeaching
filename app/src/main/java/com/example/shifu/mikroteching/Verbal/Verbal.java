@@ -31,7 +31,7 @@ public class Verbal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_verbal);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -48,7 +48,7 @@ public class Verbal extends AppCompatActivity {
 
         rowItems = new ArrayList<RowItem>();
 
-        lvVerbal = (ListView) findViewById(R.id.lvVerbal);
+        lvVerbal = findViewById(R.id.lvVerbal);
 
         namaJudul = getResources().getStringArray(R.array.tesVerbal);
         gambar = getResources().obtainTypedArray(R.array.verbalGambar);
@@ -80,11 +80,11 @@ public class Verbal extends AppCompatActivity {
      */
     private void initCollapsingToolbar() {
         final CollapsingToolbarLayout collapsingToolbar =
-                (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+                findViewById(R.id.collapsing_toolbar);
 //        collapsingToolbar.setTitle(getString(R.string.menu_verbal));
         collapsingToolbar.setTitle(" ");
 
-        AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.appbar);
+        AppBarLayout appBarLayout = findViewById(R.id.appbar);
         appBarLayout.setExpanded(true);
 
         // hiding & showing the title when toolbar expanded & collapsed

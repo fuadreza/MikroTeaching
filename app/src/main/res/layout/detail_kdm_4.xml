@@ -106,21 +106,24 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:text="@string/kdm_4_1"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="@string/kdm_4_2"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="@string/kdm_4_3"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
                 <fragment
                     android:id="@+id/youtube_fragment"

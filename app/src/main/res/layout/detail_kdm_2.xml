@@ -106,21 +106,24 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:text="@string/kdm_2_1"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="@string/kdm_2_2"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="@string/kdm_2_3"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -136,12 +139,14 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="1."/>
+                            android:text="1."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Pada umumnya interaksi komunikasi lisan di dalam kelas didominasi guru."/>
+                            android:text="Pada umumnya interaksi komunikasi lisan di dalam kelas didominasi guru."
+                            android:textSize="16sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -152,29 +157,14 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="2."/>
+                            android:text="2."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Sebagian besar kegiatan guru adalah informasi. Oleh karena itu efektivitas pembicaraan perlu ditingkatkan."/>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:layout_width="15dp"
-                            android:layout_height="wrap_content"
-                            android:text="3."/>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Penjelasan yang diberikan guru sering tidak jelas bagi siswa, dan hanya jelas bagi guru sendiri."/>
+                            android:text="Sebagian besar kegiatan guru adalah informasi. Oleh karena itu efektivitas pembicaraan perlu ditingkatkan."
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -186,12 +176,14 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="4."/>
+                            android:text="3."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Tidak semua siswa dapat menggali sendiri informasi yang diperoleh dari buku. Kenyataan ini menuntut guru untuk memberikan penjelasan kepada siswa untuk hal-hal tertentu."/>
+                            android:text="Penjelasan yang diberikan guru sering tidak jelas bagi siswa, dan hanya jelas bagi guru sendiri."
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -203,12 +195,14 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="5."/>
+                            android:text="4."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Sumber informasi yang tersedia yang dapat dimanfaatkan siswa sering sangat terbatas."/>
+                            android:text="Tidak semua siswa dapat menggali sendiri informasi yang diperoleh dari buku. Kenyataan ini menuntut guru untuk memberikan penjelasan kepada siswa untuk hal-hal tertentu."
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -220,12 +214,33 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="6."/>
+                            android:text="5."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Guru sering tidak dapat membedakan antara menceritakan dan memberikan penjelasan."/>
+                            android:text="Sumber informasi yang tersedia yang dapat dimanfaatkan siswa sering sangat terbatas."
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:text="6."
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Guru sering tidak dapat membedakan antara menceritakan dan memberikan penjelasan."
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -236,7 +251,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="@string/kdm_2_4"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -252,12 +268,14 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="1."/>
+                            android:text="1."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Membimbing murid untuk mendapat dan memahami hukum, dalil, fakta, definisi, dan prinsip secara objektif dan bernalar."/>
+                            android:text="Membimbing murid untuk mendapat dan memahami hukum, dalil, fakta, definisi, dan prinsip secara objektif dan bernalar."
+                            android:textSize="16sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -268,29 +286,14 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="2."/>
+                            android:text="2."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Melibatkan murid untuk berpikir dengan memecahkan masalah- masalah atau pertanyaan"/>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:layout_width="15dp"
-                            android:layout_height="wrap_content"
-                            android:text="3."/>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Untuk mendapat balikan dari murid mengenai tingkat pemahamannya dan untuk mengatasi kesalahpahaman mereka."/>
+                            android:text="Melibatkan murid untuk berpikir dengan memecahkan masalah- masalah atau pertanyaan"
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -302,12 +305,33 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="4."/>
+                            android:text="3."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Membimbing murid untuk menghayati dan mendapat proses penalaran dan menggunakan bukti-bukti dalam pemecahan masalah."/>
+                            android:text="Untuk mendapat balikan dari murid mengenai tingkat pemahamannya dan untuk mengatasi kesalahpahaman mereka."
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:text="4."
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Membimbing murid untuk menghayati dan mendapat proses penalaran dan menggunakan bukti-bukti dalam pemecahan masalah."
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 

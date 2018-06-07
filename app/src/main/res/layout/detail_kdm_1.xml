@@ -111,21 +111,24 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:text="@string/kdm_1_1"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="@string/kdm_1_2"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="@string/kdm_1_3"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -141,12 +144,14 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="a."/>
+                            android:text="a."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Memfokuskan perhatian dan membangkitkan minat siswa"/>
+                            android:text="Memfokuskan perhatian dan membangkitkan minat siswa"
+                            android:textSize="16sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -157,29 +162,14 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="b."/>
+                            android:text="b."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Menimbulkan Motivasi."/>
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:layout_width="15dp"
-                            android:layout_height="wrap_content"
-                            android:text="c."/>
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Memberi Acuan"/>
+                            android:text="Menimbulkan Motivasi."
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -191,12 +181,33 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="d."/>
+                            android:text="c."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Mengaitkan pelajaran yang telah dipelajari dengan topik baru."/>
+                            android:text="Memberi Acuan"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:text="d."
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Mengaitkan pelajaran yang telah dipelajari dengan topik baru."
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -213,14 +224,16 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="@string/kdm_1_4"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="@string/kdm_1_5"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -235,12 +248,14 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="a." />
+                            android:text="a."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Meninjau Kembali (Reviewing)" />
+                            android:text="Meninjau Kembali (Reviewing)"
+                            android:textSize="16sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -251,12 +266,14 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="b." />
+                            android:text="b."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Mengevaluasi" />
+                            android:text="Mengevaluasi"
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 

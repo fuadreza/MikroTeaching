@@ -36,7 +36,6 @@ class Question {
         this.answer = answer;
     }
 
-
     public int getId() {
         return id;
     }

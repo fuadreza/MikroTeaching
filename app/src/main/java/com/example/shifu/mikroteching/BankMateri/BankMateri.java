@@ -20,7 +20,7 @@ public class BankMateri extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.materi_main);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("Bank Materi");
         setSupportActionBar(toolbar);
 
@@ -35,7 +35,7 @@ public class BankMateri extends AppCompatActivity{
         });
 
         // Find the view pager that will allow the user to swipe between fragment
-        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
+        ViewPager viewPager = findViewById(R.id.viewpager);
 
         // Create an adapter that knows which fragment should be shown on each page
         SimpleFragmentPagerAdapter adapter = new SimpleFragmentPagerAdapter(this, getSupportFragmentManager());
@@ -44,7 +44,7 @@ public class BankMateri extends AppCompatActivity{
         viewPager.setAdapter(adapter);
 
         // Give the TabLayout the ViewPager
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
+        TabLayout tabLayout = findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
     }
 }

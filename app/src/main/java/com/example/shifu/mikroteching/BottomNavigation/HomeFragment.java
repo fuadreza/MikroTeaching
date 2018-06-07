@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,7 +13,6 @@ import android.widget.Toast;
 
 import com.example.shifu.mikroteching.BankMateri.BankMateri;
 import com.example.shifu.mikroteching.R;
-import com.example.shifu.mikroteching.SoalTes.HasilTes;
 import com.example.shifu.mikroteching.SoalTes.Tes;
 import com.example.shifu.mikroteching.Verbal.Verbal;
 
@@ -60,10 +58,10 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         SimpleAdapter adapter = new SimpleAdapter(getContext());
         recyclerView.setAdapter(adapter);*/
 
-        ImageView menu1 = (ImageView) rootView.findViewById(R.id.menu1);
-        ImageView menu2 = (ImageView) rootView.findViewById(R.id.menu2);
-        ImageView menu3 = (ImageView) rootView.findViewById(R.id.menu3);
-        ImageView menu4 = (ImageView) rootView.findViewById(R.id.menu4);
+        ImageView menu1 = rootView.findViewById(R.id.menu1);
+        ImageView menu2 = rootView.findViewById(R.id.menu2);
+        ImageView menu3 = rootView.findViewById(R.id.menu3);
+        ImageView menu4 = rootView.findViewById(R.id.menu4);
 
         menu1.setOnClickListener(this);
         menu2.setOnClickListener(this);

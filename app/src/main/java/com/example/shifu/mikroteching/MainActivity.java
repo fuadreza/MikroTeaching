@@ -1,23 +1,21 @@
 package com.example.shifu.mikroteching;
 
 import android.graphics.Color;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.ColorRes;
 import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatDelegate;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
 import com.aurelhubert.ahbottomnavigation.notification.AHNotification;
 import com.example.shifu.mikroteching.BottomNavigation.BottomBarAdapter;
-import com.example.shifu.mikroteching.BottomNavigation.DummyFragment;
 import com.example.shifu.mikroteching.BottomNavigation.HomeFragment;
 import com.example.shifu.mikroteching.BottomNavigation.NoSwipePager;
 import com.example.shifu.mikroteching.BottomNavigation.NotificationFragment;
@@ -26,17 +24,17 @@ import com.example.shifu.mikroteching.BottomNavigation.ProgressFragment;
 public class MainActivity extends AppCompatActivity {
 
     private final int[] colors = {R.color.bottomtab_0, R.color.bottomtab_1, R.color.bottomtab_2};
-
+    ImageView ivKDM1, ivKDM2, ivKDM3, ivKDM4, ivKDM5, ivKDM6, ivKDM7, ivKDM8;
     private Toolbar toolbar;
     private NoSwipePager viewPager;
     private AHBottomNavigation bottomNavigation;
     private BottomBarAdapter pagerAdapter;
     private View.OnClickListener imListener;
-
     private boolean notificationVisible = false;
+    private PrefManager prefManager;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(final Bundle savedInstanceState) {
 
         AppCompatDelegate.setDefaultNightMode(
                 AppCompatDelegate.MODE_NIGHT_AUTO);
@@ -63,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 //                .add(R.id.frame, fragment, DummyFragment.TAG)
 //                .commit();
 
-        bottomNavigation = (AHBottomNavigation) findViewById(R.id.bottom_navigation);
+        bottomNavigation = findViewById(R.id.bottom_navigation);
         setupBottomNavBehaviors();
         setupBottomNavStyle();
 
@@ -93,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupViewPager() {
-        viewPager = (NoSwipePager) findViewById(R.id.viewpager);
+        viewPager = findViewById(R.id.viewpager);
         viewPager.setPagingEnabled(false);
         pagerAdapter = new BottomBarAdapter(getSupportFragmentManager());
 
@@ -106,14 +104,14 @@ public class MainActivity extends AppCompatActivity {
         ProgressFragment progress_fragment = new ProgressFragment();
         NotificationFragment notification_fragment = new NotificationFragment();
 
+        progress_fragment.setMyTag("PROGRESS_TAG");
+
         pagerAdapter.addFragments(home_fragment);
         pagerAdapter.addFragments(progress_fragment);
         pagerAdapter.addFragments(notification_fragment);
 
         viewPager.setAdapter(pagerAdapter);
     }
-
-
 
     //PASANGAN DUMMY FRAGMENT ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     /*@NonNull

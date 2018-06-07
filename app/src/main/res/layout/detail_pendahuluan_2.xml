@@ -12,8 +12,8 @@
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/detail_backdrop_height"
-        android:fitsSystemWindows="true"
         android:backgroundTint="@color/colorPrimary"
+        android:fitsSystemWindows="true"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
         <android.support.design.widget.CollapsingToolbarLayout
@@ -76,7 +76,6 @@
 
     <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
@@ -103,18 +102,20 @@
                     android:textSize="20sp" />
 
                 <TextView
-                    android:layout_marginTop="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
                     android:text="@string/pendahuluan_2_1"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
                 <TextView
-                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:text="@string/pendahuluan_2_2"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -130,12 +131,14 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="a."/>
+                            android:text="a."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Rumusan tujuan dapat digunakan untuk melakukan kegiatan evaluasi terhadap efektivitas keberhasilan kegiatan pembelajaran. Suatu proses dikatakan berhasil apabila siswa dapat mencapai tujuan secara optimal."/>
+                            android:text="Rumusan tujuan dapat digunakan untuk melakukan kegiatan evaluasi terhadap efektivitas keberhasilan kegiatan pembelajaran. Suatu proses dikatakan berhasil apabila siswa dapat mencapai tujuan secara optimal."
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -147,12 +150,14 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="b."/>
+                            android:text="b."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Tujuan pembelajaran dapat dijadikan sebagai pedoman dan panduan kegiatan belajar siswa. Guru juga dapat merancang tindakan-tindakan yang dapat membantu siswa belajar."/>
+                            android:text="Tujuan pembelajaran dapat dijadikan sebagai pedoman dan panduan kegiatan belajar siswa. Guru juga dapat merancang tindakan-tindakan yang dapat membantu siswa belajar."
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -164,12 +169,14 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="c."/>
+                            android:text="c."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Tujuan pembelajaran dapat membantu guru mendesain sistem pembelajaran, seperti menentukan materi, metode, strategi, alat, media dan sumber belajar, juga merancang alat evaluasi."/>
+                            android:text="Tujuan pembelajaran dapat membantu guru mendesain sistem pembelajaran, seperti menentukan materi, metode, strategi, alat, media dan sumber belajar, juga merancang alat evaluasi."
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
@@ -181,23 +188,26 @@
                         <TextView
                             android:layout_width="15dp"
                             android:layout_height="wrap_content"
-                            android:text="d."/>
+                            android:text="d."
+                            android:textSize="16sp" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Tujuan pembelajaran dapat digunakan sebagai kontrol dalam menentukan batas-batas dan kualitas pembelajaran serta menentukan daya serap siswa dan kualitas institusi itu sendiri."/>
+                            android:text="Tujuan pembelajaran dapat digunakan sebagai kontrol dalam menentukan batas-batas dan kualitas pembelajaran serta menentukan daya serap siswa dan kualitas institusi itu sendiri."
+                            android:textSize="16sp" />
 
                     </LinearLayout>
 
                 </LinearLayout>
 
                 <TextView
-                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:text="@string/pendahuluan_2_3"
-                    android:textColor="#111" />
+                    android:textColor="#111"
+                    android:textSize="16sp" />
 
             </LinearLayout>
 

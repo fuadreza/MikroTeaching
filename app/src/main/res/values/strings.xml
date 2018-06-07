@@ -563,19 +563,20 @@ ilmu pengetahuan akan diketahui atau tidak diketahui oleh siswa,
 hanya jika guru dapat mendemonstrasikan keterampilan bertanya
 yang baik dalam praktik pembelajaran di kelas.</string>
     <string name="kdm_3_2">
-        Pembelajaran hakekatnya adalah proses interaksi peserta
-didik dengan pendidik dan sumber belajar dalam suasana interaktif
-yang terarah pada tujuan pembelajaran. Ada tidaknya interaksi
-adalah merupakan tanggung jawab guru, sehingga perlu mendapatkan
-perhatian khusus. Suatu cara untuk menumbuhkan interaksi
-ini adalah dengan mengajukan pertanyaan atau permasalahan
-kepada siswa.</string>
+        Keterampilan bertanya meliputi keterampilan bertanya dasar
+dan keterampilan bertanya lanjut. Keterampilan bertanya dasar mempunyai
+beberapa kemampuan dasar yang perlu diterapkan dalam
+mengajukan segala jenis pertanyaan.</string>
     <string name="kdm_3_3">
-        Sebenarnya pertanyaan yang diajukan guru mempunyai beberapa maksud. Satu
-pertanyaan yang diajukan dapat mencapai beberapa tujuan sekaligus
-pada waktu yang sama. Kadang-kadang hal ini tidak disadari, baik
-oleh siswa maupun oleh guru itu sendiri, sebab pertanyaan itu
-berkembang.</string>
+        Keterampilan bertanya dasar mempunyai
+beberapa kemampuan dasar yang perlu diterapkan dalam
+mengajukan segala jenis pertanyaan.</string>
+    <string name="kdm_3_4">
+        Keterampilan bertanya lanjut
+adalah keterampilan yang dimiliki guru setelah guru memiliki
+keterampilan bertanya dasar yang lebih berusaha untuk mengembangkan
+kemampuan berpikir siswa, memperbesar tingkat partisipasi
+siswa, dan mendorong siswa agar kritis.</string>
     <!-- Deskripsi Detail KDM 3 - End -->
 
     <!-- Deskripsi Detail KDM 4 - Start=================================================================================================================-->

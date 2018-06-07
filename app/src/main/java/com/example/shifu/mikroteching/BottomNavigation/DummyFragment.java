@@ -45,7 +45,7 @@ public class DummyFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_square, container, false);
 
-        recyclerView = (RecyclerView) rootView.findViewById(R.id.fragment_square_recycler);
+        recyclerView = rootView.findViewById(R.id.fragment_square_recycler);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
         recyclerView.setBackgroundColor(getLighterColor(color));
 

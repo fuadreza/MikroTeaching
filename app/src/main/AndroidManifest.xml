@@ -38,17 +38,23 @@
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".SoalTes.Tes"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
         <activity
             android:name=".SoalTes.HasilTes"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
             android:name=".Verbal.Verbal"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
         <activity
             android:name=".Verbal.DetailVerbal"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
     </application>
 
 </manifest>

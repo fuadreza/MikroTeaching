@@ -101,6 +101,11 @@
                     android:textColor="@color/colorPrimary"
                     android:textSize="20sp" />
 
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@drawable/kdm1" />
+
                 <VideoView
                     android:id="@+id/vid1"
                     android:layout_width="match_parent"
@@ -121,6 +126,11 @@
                     android:text="@string/kdm_1_2"
                     android:textColor="#111"
                     android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:src="@drawable/kdm1_ss1" />
 
                 <TextView
                     android:layout_width="match_parent"

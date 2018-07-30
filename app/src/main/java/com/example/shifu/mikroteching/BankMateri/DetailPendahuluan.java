@@ -8,8 +8,10 @@ import android.support.design.widget.CoordinatorLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.example.shifu.mikroteching.PrefManager;
 import com.example.shifu.mikroteching.R;
 
@@ -47,8 +49,10 @@ public class DetailPendahuluan extends AppCompatActivity {
 
         setSupportActionBar(toolbar);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+        }
 
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,6 +80,12 @@ public class DetailPendahuluan extends AppCompatActivity {
         prefManager.setPendahuluan(pindah.getStringExtra("judul"), true);
 
         /*End Progress Pendahuluan*/
+
+        try {
+            Glide.with(this).load(pindah.getIntExtra("backdrop", 0)).into((ImageView) findViewById(R.id.backdrop));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
     }
 

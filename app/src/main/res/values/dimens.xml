@@ -16,6 +16,6 @@
     <dimen name="backdrop_subtitle">14dp</dimen>
     <dimen name="detail_backdrop_height">250dp</dimen>
 
-    <dimen name="menu_height">160dp</dimen>
-    <dimen name="menu_width">150dp</dimen>
+    <dimen name="menu_height">172dp</dimen>
+    <dimen name="menu_width">162dp</dimen>
 </resources>

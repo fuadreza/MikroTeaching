@@ -43,8 +43,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:numStars="5"
-        android:stepSize="1"
+        android:stepSize="3"
         android:layout_below="@+id/score"
         android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnUlang"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/scoreText"
+        android:layout_below="@+id/ratingBar1"
+        android:layout_marginTop="21dp"
+        android:text="Ulangi"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnSelesai"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnUlang"
+        android:layout_alignBottom="@+id/btnUlang"
+        android:layout_alignEnd="@+id/ratingBar1"
+        android:text="Selesai"
+        android:textColor="@color/white" />
 
 </RelativeLayout>

@@ -1,7 +1,10 @@
 package com.example.shifu.mikroteching.SoalTes;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
@@ -23,6 +26,8 @@ public class HasilTes extends AppCompatActivity{
         TextView scoreTxtView = findViewById(R.id.score);
         RatingBar ratingBar = findViewById(R.id.ratingBar1);
         ImageView img = findViewById(R.id.img1);
+        Button btn_ulangi = findViewById(R.id.btnUlang);
+        Button btn_selesai = findViewById(R.id.btnSelesai);
 
         Bundle b = getIntent().getExtras();
         int score = b.getInt("score");
@@ -34,6 +39,21 @@ public class HasilTes extends AppCompatActivity{
         if (score > prefManager.berapaSkor()) {
             prefManager.setSkor(score);
         }
+
+        btn_ulangi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+                startActivity(new Intent(view.getContext(), Tes.class));
+            }
+        });
+
+        btn_selesai.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
         /*if(score == 0){
             img.setImageResource(R.drawable.score_0);

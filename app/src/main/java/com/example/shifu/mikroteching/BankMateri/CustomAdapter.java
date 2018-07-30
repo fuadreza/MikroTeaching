@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.support.constraint.ConstraintLayout;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,15 +21,15 @@ import java.util.List;
  */
 
 public class CustomAdapter extends BaseAdapter{
-    String[] judul = {};
-    String kategori = "";
-    String[] deskripsi = {};
-    int[] gambar = {};
-    int layoute;
-    String video1, video2;
+    private String[] judul;
+    private String kategori;
+    private String[] deskripsi;
+    private int[] gambar;
+    private int layoute, backdrop;
+    private String video1, video2;
 
-    Context context;
-    List<RowItem> rowItems;
+    private Context context;
+    private List<RowItem> rowItems;
 
     CustomAdapter(Context context, List<RowItem> rowItems, String[] judul, String[] deskripsi, int[] gambar, String kategori) {
         this.context = context;
@@ -57,12 +58,17 @@ public class CustomAdapter extends BaseAdapter{
     @Override
     public View getView(final int position, View convertView, final ViewGroup parent) {
 
-        ViewHolder holder = null;
+        ViewHolder holder;
 
         LayoutInflater mInflater = (LayoutInflater) context
                 .getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
         if (convertView == null) {
-            convertView = mInflater.inflate(R.layout.item_simplevh, null);
+            try {
+                convertView = mInflater.inflate(R.layout.item_simplevh, null);
+            } catch (Exception e) {
+                Log.e("ViewError", "Error on " + e.getMessage());
+            }
+
             holder = new ViewHolder();
 
             holder.namaJudul = convertView
@@ -85,7 +91,7 @@ public class CustomAdapter extends BaseAdapter{
 
                     if (kategori.equalsIgnoreCase("Pendahuluan")){
                         pindah = new Intent(parent.getContext(), DetailPendahuluan.class);
-                        switch (judul[position].toString()){
+                        switch (judul[position]) {
                             case "Konsep Pembelajaran":
                                 layoute = R.layout.detail_pendahuluan_1;
                                 break;
@@ -108,9 +114,10 @@ public class CustomAdapter extends BaseAdapter{
                                 layoute = R.layout.detail_pendahuluan;
                                 break;
                         }
+                        backdrop = R.drawable.study;
                     }else {
                         pindah = new Intent(parent.getContext(), DetailKDM.class);
-                        switch (judul[position].toString()){
+                        switch (judul[position]) {
                             case "Keterampilan Membuka dan Menutup Pelajaran":
                                 layoute = R.layout.detail_kdm_1;
                                 break;
@@ -139,6 +146,7 @@ public class CustomAdapter extends BaseAdapter{
                                 layoute = R.layout.detail_pendahuluan;
                                 break;
                         }
+                        backdrop = R.drawable.header_kdm;
                     }
 
                     pindah.putExtra("judul", judul[position]);
@@ -146,6 +154,7 @@ public class CustomAdapter extends BaseAdapter{
                     pindah.putExtra("kategori", kategori);
 
                     pindah.putExtra("layout", layoute);
+                    pindah.putExtra("backdrop", backdrop);
 //                    pindah.putExtra("video1", video1);
 
                     parent.getContext().startActivity(pindah);
@@ -154,7 +163,8 @@ public class CustomAdapter extends BaseAdapter{
 
             convertView.setTag(holder);
         } else {
-            holder = (ViewHolder) convertView.getTag();
+            //Value never use
+            //holder = (ViewHolder) convertView.getTag();
         }
 
         return convertView;

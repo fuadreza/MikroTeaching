@@ -23,7 +23,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_welcome"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
             android:name=".BankMateri.BankMateri"
@@ -53,6 +53,9 @@
         <activity
             android:name=".Verbal.DetailVerbal"
             android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".ChatBot.ChatMain">
 
         </activity>
     </application>

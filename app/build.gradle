@@ -9,8 +9,13 @@ android {
         minSdkVersion 22
         targetSdkVersion 26
         versionCode 1
-        versionName '0.7'
+        versionName '0.8'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath false
+            }
+        }
     }
     // Encapsulates options for running tests.
     testOptions {
@@ -29,6 +34,18 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+    }
     productFlavors {
     }
 }
@@ -36,7 +53,7 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:26.1.0'
-    implementation 'com.android.support:support-annotations:27.1.1'
+    implementation 'com.android.support:support-annotations:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     // Required for local unit tests (JUnit 4 framework)
     testCompile 'junit:junit:4.12'
@@ -52,4 +69,19 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     }
     androidTestCompile project(path: ':mylibrary')
+
+//    implementation 'com.google.firebase:firebase-core:16.0.1'
+
+    //Card View
+    implementation 'com.android.support:cardview-v7:26.1.0'
+
+    //ChatBot
+    compile 'com.android.support:recyclerview-v7:26.+'
+    compile 'com.google.firebase:firebase-database:11.2.2'
+    compile 'com.firebaseui:firebase-ui-database:2.3.0'
+    compile 'ai.api:sdk:2.0.7@aar'
+    compile 'ai.api:libai:1.4.8'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'commons-io:commons-io:2.4'
 }
+apply plugin: 'com.google.gms.google-services'

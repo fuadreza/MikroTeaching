@@ -101,6 +101,11 @@
                     android:textColor="@color/colorPrimary"
                     android:textSize="20sp" />
 
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/kdm6" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

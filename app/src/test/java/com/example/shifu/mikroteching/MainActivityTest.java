@@ -1,0 +1,17 @@
+package com.example.shifu.mikroteching;
+
+import org.junit.Test;
+
+/**
+ * Dibuat dengan kerjakerasbagaiquda oleh Shifu pada tanggal 02/06/2018.
+ */
+public class MainActivityTest {
+    @Test
+    public void onCreate() throws Exception {
+    }
+
+    @Test
+    public void setupBottomNavBehaviors() throws Exception {
+    }
+
+}
